@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Multiple Choice</title>
+    <style>
+    	body {
+    		background-color: #E8C721;
+    	}
+    </style>
+  </head>
+  <body>
+  <form action="/">
+   <h1>Question:</h1>
+   <input type="text" name="question"><br>
+   <h2>Choice A:</h2>
+   <input type="text" name="A"><br>
+   <h2>Choice B:</h2>
+   <input type="text" name="B"><br>
+   <h2>Choice C:</h2>
+   <input type="text" name="C"><br>
+   <h2>Choice D:</h2>
+   <input type="text" name="D"><br>
+   <h2>Choice E:</h2>
+   <input type="text" name="E"><br>
+   <h2>Correct Answer:</h2>
+   <input type="radio" name="answer" value=0>A<br>
+   <input type="radio" name="answer" value=1>B<br>
+   <input type="radio" name="answer" value=2>C<br>
+   <input type="radio" name="answer" value=3>D<br>
+   <input type="radio" name="answer" value=4>E<br><br>
+   <input type="submit" value="submit" onclick="returnToHome()">
+  </form>
+  <script>
+    document.location.href("http://192.168.7.133:8080/?question=Home_Page.html");
+  </script>
+  </body>
+<html>
